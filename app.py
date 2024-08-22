@@ -2,7 +2,10 @@
 # Author: Omayma Chattat
 # Source: [Github](https://github.com/omaymaprojects)
 # Credits: Streamlit Team, HuggingFace, spaCy, TextRank
-
+import spacy.cli
+spacy.cli.download("en_core_web_sm")
+import spacy
+nlp = spacy.load("en_core_web_sm")
 
 import streamlit as st
 import spacy
