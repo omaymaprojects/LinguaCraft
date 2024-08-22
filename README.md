@@ -11,39 +11,39 @@ To run this project locally, follow these steps:
 
 Clone the repository:
 
-bash
-Copier le code
+```
 git clone https://github.com/omaymaprojects/LinguaCraft.git
 cd LinguaCraft
+```
 Create and activate a virtual environment:
 
 On Windows:
 
-bash
-Copier le code
+```
 python -m venv venv
-venv\Scripts\activate
+venv\Scripts\activate 
+```
 On macOS/Linux:
 
-bash
-Copier le code
+```
 python3 -m venv venv
 source venv/bin/activate
+```
 Install the required dependencies:
 
-bash
-Copier le code
+```
 pip install -r requirements.txt
+```
 Download the spaCy language model:
 
-bash
-Copier le code
+```
 python -m spacy download en_core_web_sm
+```
 Run the app:
 
-bash
-Copier le code
+```
 streamlit run app.py
+```
 Usage
 Translate Text: Enter your text and select the target language for translation.
 Extract Keywords: Analyze your text to extract the most relevant keywords.
@@ -65,4 +65,4 @@ Thanks to the Streamlit team for providing an easy-to-use framework for building
 Hugging Face for the amazing NLP models.
 The spaCy team for their powerful NLP library.
 Author
-Omayma Chattat - AI Enthusiast and Developer.
+Omayma Chattat - AI Enthusiast and Data Scientist.
